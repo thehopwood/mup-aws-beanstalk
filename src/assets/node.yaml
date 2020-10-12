@@ -19,3 +19,7 @@ files:
             nvm use $NODE_VERSION
             nvm alias default $NODE_VERSION
             npm i -g npm@$NPM_VERSION
+
+
+            echo "Fetching google-chrome and dependencies"
+            curl https://intoli.com/install-google-chrome.sh | bash
